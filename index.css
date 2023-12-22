@@ -1,0 +1,348 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(to right , #c0cbc3 , white);
+
+
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    border: 2px solid black;
+    background: #b2beb5;
+    margin: 0px;
+    margin-top: 3px;
+}
+
+.nav-container {
+    position: relative;
+    display: flex;
+    height: 40px;
+    margin-top: 21px;
+    margin-left: 65vw;
+    font-size: 22px;
+}
+
+.nav-container>ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-option {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    margin: 13px;
+}
+
+.nav-option:hover,
+.nav-option:focus {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    height: 95px;
+    width: 95px;
+    border-radius: 50%;
+    border: 2px solid black;
+    background: url(Screenshot\ 2023-09-24\ 155843.png) center center/cover no-repeat;
+    margin-top: -7px;
+}
+
+.logo>img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.nav-search {
+    display: flex;
+    position: absolute;
+    height: 50px;
+    width: 50vw;
+    margin-top: 20px;
+    margin-left: 10vw;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+.add-container {
+    display: flex;
+    position: relative;
+    height: 249px;
+    width: 85%;
+    border: 2px solid #b2beb5;
+    background: #b2beb5;
+    margin-left: 120px;
+    margin-top: 30px;
+    border-radius: 20px;
+
+}
+.add-container > h2 {
+    display: flex;
+    font-weight: 800;
+    color: white;
+    position: absolute;
+    margin: 95px 16em;
+}
+#sale-order {
+    display: flex;
+    text-align: center;
+    font-weight: 800;
+    color: #b2beb5;
+    height: 45px;
+    width: 150px;
+    margin-left: 31em;
+    margin-top: 182px;
+    background: white;
+    font-size: 18px;
+    border-radius: 20px;
+    border: 2px solid #b2beb5;
+}
+.gender-shopping {
+    display: flex;
+    height: 400px;
+    width: 85%;
+    margin-left: 120px;
+}
+
+.box{
+    display: flex;
+    width: 200px;
+    border: 2px solid #b2beb5;
+    margin: 29px 115px;
+    border-radius: 20px;
+    text-align: center;
+    background: #b2beb5;
+}
+.box >h2 {
+    display: flex;
+    justify-content: center;
+    height: 41px;
+    width: 100%;
+    align-items: center;
+    font-weight: 800;
+    font-size: 25px;
+    margin: 0px 0px;
+    background: white;
+    color: #b2beb5;
+}
+
+.box .btn {
+    display: flex;
+    text-align: center;
+    font-weight: 800;
+    color: #b2beb5;
+    height: 45px;
+    width: 150px;
+    margin-left: -170px;
+    margin-top: 281px;
+    background: white;
+    font-size: 18px;
+    border-radius: 20px;
+    border: 2px solid #b2beb5;
+    
+}
+
+.fashion {
+    display: flex;
+    height: 400px;
+    width: 85%;
+    margin-left: 120px;
+}
+.etc {
+    display: flex;
+    height: 400px;
+    width: 85%;
+    margin-left: 120px;
+}
+
+.contect {
+    display: flex;
+    width: 100%;
+    height: 180px ;
+    border: 4px solid #b2beb5;
+    background-color: #b2beb5;
+}
+
+.contect >.head {
+    display: flex;
+    height: 50px ;
+    width: 200px;
+    background: white;
+    color: #b2beb5;
+    font-weight: 800;
+    text-align: center;
+}
+.contect > .insta {
+    display: flex;
+    margin-top: 70px;
+    margin-left: -176px;
+    font-size: 22px;
+
+}
+.contect > .whatapp {
+    display: flex;
+    margin-top: 100px;
+    margin-left: -216px;
+    font-size: 22px;
+}
+.contect > .mail {
+    display: flex;
+    margin-top: 130px;
+    margin-left: -148px;
+    font-size: 22px;
+}
+
+.other-services {
+    display: flex;
+    width: 100%;
+    height: 230px ;
+    border: 4px solid #b2beb5;
+    background-color: #b2beb5;
+}
+
+
+.other-services >.head {
+    display: flex;
+    height: 50px ;
+    width: 240px;
+    background: white;
+    color: #b2beb5;
+    font-weight: 800;
+    text-align: center;
+}
+.other-services> ul {
+    font-size: 22px;
+    margin: 70px;
+    
+}
+.services
+{
+    color: black;
+}
+.other-services>ul>li>a:hover , .other-services>ul>li>a:focus{
+    text-decoration: none;
+}
+#bttb {
+    display: flex;
+    text-align: center;
+    font-weight: 800;
+    color: #b2beb5;
+    height: 45px;
+    width: 150px;
+    margin-left: -170px;
+    margin-top: -182px;
+    background: white;
+    font-size: 18px;
+    border-radius: 20px;
+    border: 2px solid #b2beb5;
+}
+
+
+@media (max-width:480px ) {
+
+
+    .navbar {
+        display: flex;
+        width: 100%;
+        height: 100px;
+        border: 2px solid black;
+        background: #b2beb5;
+        margin: 0px;
+        margin-top: 3px;
+    }
+    .nav-container {
+        display: none;
+    }
+    
+    .nav-search{
+        display: flex;
+        position: absolute;
+        height: 50px;
+        width: 296px;
+        margin-top: 20px;
+        margin-left: 121px;
+        border-radius: 20px;
+        text-align: center;
+    }
+
+    .add-container {
+        display: flex;
+        position: relative;
+        height: 249px;
+        width: 85%;
+        border: 2px solid #b2beb5;
+        background: #b2beb5;
+        margin-left: 32px;
+        margin-top: 30px;
+        border-radius: 20px;
+    }
+    #sale-order {
+        display: flex;
+        text-align: center;
+        font-weight: 800;
+        color: #b2beb5;
+        height: 45px;
+        width: 150px;
+        margin-left: 8em;
+        margin-top: 182px;
+        background: white;
+        font-size: 18px;
+        border-radius: 20px;
+        border: 2px solid #b2beb5;
+    }
+    
+    .add-container > h2 {
+        display: flex;
+        font-weight: 800;
+        color: white;
+        position: absolute;
+        margin: 20px 4em;
+        letter-spacing: 24px;
+    }
+    .gender-shopping {
+        display: block;
+        height: 0px ;
+        width:0px ;
+        margin-left: 0px;
+    }
+    .box {
+        display: flex;
+        width: 291px;
+        border: 2px solid #b2beb5;
+        margin: 29px 107px;
+        height: 250px ;
+        border-radius: 20px;
+        text-align: center;
+        background: #b2beb5;
+    }
+ }
+
+ @media (min-width:481px ) and (max-width:767px){
+    
+ 
+ }
+
+ @media (min-width:1025px) and (max-width:1280px) {
+
+
+ }
+
+ @media (min-width:1281px ) {
+
+   
+ }
